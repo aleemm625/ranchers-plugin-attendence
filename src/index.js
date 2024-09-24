@@ -6,12 +6,13 @@ const require = createRequire(import.meta.url);
 const pkg = require("../package.json");
 
 async function register(app) {
+  console.log("app ",app)
   await app.registerPlugin({
     label: pkg.label,
     name: pkg.name,
     version: pkg.version,
     collections: {
-      RiderOrder: {
+      ActivityData: {
         name: "ActivityData",
         updatedAt: { type: Date, default: Date.now },
         createdAt: { type: Date, default: Date.now },
