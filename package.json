@@ -1,7 +1,7 @@
 {
   "name": "@codistan-isb/ranchers-plugin-attendence",
   "description": "Boilerplate plugin for the Reaction API",
-  "label": "Attendence Plugin",
+  "label": "attendence",
   "version": "11.2.12",
   "main": "index.js",
   "type": "module",
@@ -27,11 +27,13 @@
   "sideEffects": false,
   "dependencies": {
     "@reactioncommerce/api-utils": "^1.16.9",
+    "date-fns": "^4.1.0",
     "escpos": "^3.0.0-alpha.6",
     "escpos-network": "^3.0.0-alpha.5",
     "node-cron": "^3.0.2",
     "print-js": "^1.6.0",
-    "seedrandom": "^3.0.5"
+    "seedrandom": "^3.0.5",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",

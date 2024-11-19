@@ -1,0 +1,12 @@
+export const ACTIVITY_STATUSES = [
+  "IN_BRANCH",
+  "OUT_BRANCH",
+  "DELIVERY",
+  "OTHER",
+];
+export const ACTIVITY_STATUS = {
+  IN_BRANCH: "IN_BRANCH",
+  OUT_BRANCH: "OUT_BRANCH",
+  DELIVERY: "DELIVERY",
+  OTHER: "OTHER",
+};
